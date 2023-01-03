@@ -406,7 +406,7 @@ body{
 }
 
 
-@media all and (min-width: 1280px) and (max-width: 1366px){
+@media all and (max-width: 1368px){
 	.logo{
 		margin-right: 230px;
 	}
@@ -441,7 +441,8 @@ body{
 		padding-left: 45px;
 	}
 }
-@media all and (min-width: 1024px) and (max-width: 1280px){
+
+@media all  and (max-width: 1280px){
 	.about_foot{
 		margin-left: 497px; 
 	}
@@ -484,7 +485,7 @@ body{
 	}
 }
 
-@media all and (min-width: 768px) and (max-width: 1024px){
+@media all  and (max-width: 1024px){
 	.nav{
 		margin-top: 35px;
 		margin-right: 0;
@@ -594,8 +595,60 @@ body{
 	.img_2{
 		display: none;
 	}
+	.footer{
+		margin-top: 40px;
+	}
 }
-
+@media all and (max-width: 912px){
+	.CONTACTS {
+    margin-left: 120px;
+	}
+	.text{
+		width: 270px;
+	}
+	.about_text{
+		margin-left: 84px;
+	}
+	.about_foot{
+		margin-left: 346px;
+	}
+	.cards_flex {
+    width: 951px;
+	}
+	.big_cards_flex {
+    width: 913px;
+	}
+	.big_card_line {
+    margin-left: 10px;
+	}
+	.desc_card_flex {
+    width: 912px;
+	}
+	.desc_card {
+    padding-left: 20px;
+	}
+	.should_know_desc {
+    margin-left: 45px;
+	}
+	.img_smile_man{
+		width: 420px;
+	}
+	.should_know_flex {
+    width: 965px;
+	}
+	.contact_us_img{
+		display: none;
+	}
+	.contact_us_desc{
+		padding-left: 218px;
+	}
+	.contact_us_title{
+		margin-left: 160px;
+	}
+	.more_info_card_flex{
+		margin-left: 85px;
+	}
+}
 @media all and (max-width: 768px){
 	.header_img_item{
 		display: none;
@@ -613,7 +666,7 @@ body{
 		display: none;
 	}
 	.CONTACTS{
-		margin-left: 18px;
+		margin-left: 60px;
 	}
 	.logo{
 		margin-right: 105px;
@@ -693,9 +746,6 @@ body{
 		width: 531px;
 		margin-bottom: 90px;
 	}
-	.should_know_link{
-		padding-bottom: 10px;
-	}
 	.contact_us_img{
 		display: none;
 	}
@@ -720,4 +770,428 @@ body{
 	.footer{
 		width: 768px;
 	}
+	.cards_flex{
+		width: 768px;
+	}
 }
+
+@media all and (max-width: 425px){
+	.nav{
+		margin-left: -28px;
+		margin-top: 30px;
+	}
+	.logo {
+    	margin-right: 15px;
+	}
+	.desc{
+		margin-bottom: 100px;
+	}
+	.CONTACTS {
+    	margin-left: 127px;
+    	margin-top: 60px;
+	}
+	.sub_title {
+		font-size: 31px;
+		margin-top: -6px;
+	}
+	.header_desc{
+		margin-left: -11px;
+	}
+	.info_desc{
+		margin-left: -49px;
+		width: 385px;
+	}
+	.info_title{
+		margin-top: 30px;
+		margin-left: -30px;
+	}
+	.about_flex{
+		display: block;
+		width: 500px;
+		font-size: 30px;
+	}
+	.about_title{
+		margin-top: 57px;
+	}
+	.about_text{
+		margin-top: 55px;
+		width: 360px;
+		font-size: 26px;
+		margin-left: -13px;
+	} 
+	.about_foot{
+		margin-top: 17px;
+		margin-left: 80px;
+	}
+	.card{
+		width: 50%;
+	}
+	.card2{
+		width: 50%;
+	}
+	.card3{
+		width: 50%;
+		margin-top: -120px;
+		margin-bottom: 10px;
+	}
+	.card4{
+		width: 50%;
+		margin-top: -120px;
+	}
+	.cards_flex{
+		width: 415px;
+		flex-wrap: wrap;
+
+	}
+	.desc_card_flex{
+		width: 415px;
+		flex-wrap: wrap;
+	}
+	.desc_card{
+		margin-top: -12px;
+		margin-bottom: 10px;
+		font-size: 22px;
+		width: 300px;
+		margin-left: 53px;
+	}
+	.desc_title{
+		margin-bottom: 20px;
+		font-size: 30px;
+	}
+	.desc_card_t{
+		margin-bottom: 10px;
+		font-size: 22px;
+		width: 300px;
+		margin-left: -23px;
+		width: 300px;
+	}
+	.should_know_desc{
+		margin-top: 70px;
+	}
+	.should_know_title{
+		font-size: 24px;
+		margin-left: 17px;
+	}
+	.should_know_text {
+		margin-top: 75px;
+		width: 403px;
+		margin-left: -30px;
+		font-size: 23px;
+	}
+	.contact_us_desc{
+		margin-top: 10px;
+		margin-left: -150px;
+	}
+	.contact_us_text{
+		font-size: 21px;
+		width: 406px;
+	}
+	.contact_us_subtittle{
+		font-size: 38px;
+		margin-left: 70px;
+	}
+	.contact_us_title{
+		margin-left: 110px;
+		font-size: 34px;
+	}
+	.img_2{
+		display: none;
+	}
+	.contact_us_link {
+		margin-left: 25px;
+	}
+	.more_info_card_flex{
+		margin-left: 16px;
+		font-size: 16px;
+		justify-content: space-around;
+	}
+	.more_info_text{
+		font-size: 17px;
+		line-height: 23px;
+	}
+	.more_info_card{
+		margin-top: 70px;
+		width: 110px;
+	}
+	.footer_text{
+		margin-left: 55px;
+	}
+	.footer{
+		margin-top: 20px;
+	}
+	.big_cards_flex{
+		width: 420px;
+		flex-wrap: wrap;
+	}
+	.big_card{
+		width: 100%;		
+	}
+	.desc_card_t{
+		margin-left: 26px;
+	}
+}
+
+@media all and (max-width: 415px){
+	.nav{
+		margin-left: -22px;
+		margin-top: 30px;
+	}
+	.nav_item{
+		margin-right: 19px;
+	}
+	.logo {
+    	margin-right: 23px;
+	}
+	.desc{
+		margin-bottom: 100px;
+	}
+	.CONTACTS {
+    	margin-left: 127px;
+    	margin-top: 60px;
+	}
+	.sub_title {
+		font-size: 31px;
+		margin-top: -6px;
+	}
+	.header_desc{
+		margin-left: 0px;
+	}
+	.info_desc{
+		margin-left: -50px;
+		width: 385px;
+	}
+	.desc_title {
+		margin-left: 6px;
+	}
+	.info_title{
+		margin-top: 30px;
+		margin-left: -30px;
+	}
+	.about_flex{
+		display: block;
+		width: 500px;
+		font-size: 30px;
+	}
+	.about_title{
+		margin-top: 57px;
+	}
+	.about_text{
+		margin-top: 55px;
+		width: 360px;
+		font-size: 26px;
+		margin-left: -13px;
+	} 
+	.about_foot{
+		margin-top: 17px;
+		margin-left: 80px;
+	}
+	.card{
+		width: 50%;
+	}
+	.card2{
+		width: 50%;
+	}
+	.card3{
+		width: 50%;
+		margin-top: -120px;
+		margin-bottom: 10px;
+	}
+	.card4{
+		width: 50%;
+		margin-top: -120px;
+	}
+	.cards_flex{
+		width: 415px;
+		flex-wrap: wrap;
+
+	}
+	.desc_card_flex{
+		width: 415px;
+		flex-wrap: wrap;
+	}
+	.desc_card{
+		margin-top: -12px;
+		margin-bottom: 10px;
+		font-size: 22px;
+		width: 300px;
+		margin-left: 53px;
+	}
+	.desc_title{
+		margin-bottom: 20px;
+		font-size: 30px;
+	}
+	.desc_card_t{
+		margin-bottom: 10px;
+		font-size: 22px;
+		width: 300px;
+		margin-left: 30px;
+		width: 300px;
+	}
+	.should_know_desc{
+		margin-top: 70px;
+	}
+	.should_know_title{
+		font-size: 24px;
+		margin-left: 2px;
+	}
+	.should_know_text {
+		margin-top: 75px;
+		width: 403px;
+		margin-left: -39px;
+		font-size: 23px;
+	}
+	.contact_us_desc{
+		margin-top: 10px;
+		margin-left: -160px;
+	}
+	.contact_us_text{
+		font-size: 21px;
+		width: 406px;
+	}
+	.contact_us_subtittle{
+		font-size: 38px;
+		margin-left: 64px;
+	}
+	.contact_us_title{
+		margin-left: 110px;
+		font-size: 34px;
+	}
+	.img_2{
+		display: none;
+	}
+	.contact_us_link {
+		margin-left: 40px;
+	}
+	.more_info_card_flex{
+		margin-left: 16px;
+		font-size: 16px;
+		justify-content: space-around;
+	}
+	.more_info_text{
+		font-size: 17px;
+		line-height: 23px;
+	}
+	.more_info_card{
+		margin-top: 70px;
+		width: 110px;
+	}
+	.footer_text{
+		margin-left: 55px;
+	}
+	.footer{
+		margin-top: 20px;
+	}
+}
+
+@media all and (max-width: 375px){
+	.nav_item{
+		display: none;
+	}
+	.CONTACTS {
+		position: absolute;
+    	margin-left: 77px;
+    	margin-top: -10px;
+	}
+	.sub_title{
+		font-size: 30px;
+	}
+	.info_desc{
+		width: 366px;
+	}
+	.info_title{
+		margin-left: -50px;
+	}
+	.desc_card{
+		margin-left: 30px;
+	}
+	.desc_card_t{
+		margin-left: 4px;
+	}
+	.should_know_text{
+		width: 373px;
+	}
+	.contact_us_text{
+		width: 335px;
+		margin-left: 35px;
+	}
+	.more_info_card_flex{
+		width: 352px;
+	}
+}
+@media all and (max-width: 320px){
+	.CONTACTS {
+    	margin-left: 40px;
+	}
+	.sub_title{
+		font-size: 27px;
+		width: 317px;
+		margin-left: -5px;
+	}
+	.desc{
+		margin-left: -8px;
+	}
+	.btn1 {
+		margin-right: 5px;
+		margin-left: -17px;
+	}
+	.info_title {
+    	margin-left: -36px;
+    	margin-bottom: 57px;
+	}
+	.info_desc{
+		width: 320px;
+		margin-left: -48px;
+		font-size: 16px;
+	}
+	.why_thrive {
+		width: 150%;
+		height: 430px;
+	}
+	.about_text{
+		width: 300px;
+		font-size: 23px;
+	}
+	.about_foot {
+		margin-left: 46px;
+	}
+	.cards_flex{
+		width: 320px;
+	}
+	.card_title{
+		font-size: 21px;
+	} 
+	.card_line{
+		width: 140px;
+	}
+	.desc_card {
+		margin-left: 8px;
+	}
+	.desc_card_t {
+    	margin-left: -19px;
+	}
+	.should_know_title {
+    	font-size: 22px;
+ 		margin-left: -25px;
+	}
+	.should_know_text{
+		font-size: 21px;
+		width: 308px;
+		margin-left: -31px;
+	} 
+	.contact_us_title{
+		margin-left: 70px;
+	}
+	.contact_us_subtittle {
+		margin-left: 39px;
+	}
+	.more_info_card_flex {
+		margin-left:11px;	
+		width: 320px;
+	}
+	.more_info_card{
+		margin-top: 47px;
+	}
+	.footer{
+		margin-top: 80px;
+	}
+}	
