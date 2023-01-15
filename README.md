@@ -1,2 +1,1 @@
 # Thrive-talk.
-.
